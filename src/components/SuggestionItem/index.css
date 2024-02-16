@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.suggestion {
+  color: #475569;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.suggestions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  height: 35px;
+  width: 35px;
+  align-self: flex-end;
+}
+.arrow-button {
+  background-color: transparent;
+  border-width: 0px;
+}
